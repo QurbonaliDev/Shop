@@ -35,10 +35,11 @@
                 </div>
                 <!-- end normal -->
                 <div class="quick-view">
-                    <a href="single.html">Quick view</a>
+                    <a href="{% url 'single' pk=i.id %}">Quick view</a>
                 </div>
             </div>
             {% endfor %}
+            <
 
             <div class="clearfix"></div>
         </div>
